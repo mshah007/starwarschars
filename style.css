@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+}
+button {
+  font-size: 3rem;
+  padding: 5px 10px;
+  margin: 40px;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+.container {
+  background: center url("starwars.jpg");
+}
+p {
+  color: purple;
+}
+img {
+  width: 200px;
+  border: 2px solid white;
+}
